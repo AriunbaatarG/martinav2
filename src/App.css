@@ -99,3 +99,11 @@ img {
 .portfolio-item .port-li a {
   font-size: 3rem;
 }
+
+.contact-form {
+  display: grid;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding: 1rem 1rem;
+  padding-top: 10rem;
+}
