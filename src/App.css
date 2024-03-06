@@ -136,3 +136,65 @@ img {
   cursor: pointer;
   font-size: 16px;
 }
+.products {
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.product {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product img {
+  width: 150px;
+  height: auto;
+}
+
+/* OrderForm component styles */
+.order-form {
+  margin-top: 20px;
+}
+
+.order-form h2 {
+  margin-bottom: 10px;
+}
+
+.order-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.order-form input[type="text"],
+.order-form input[type="email"],
+.order-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.order-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.order-form button:hover {
+  background-color: #45a049;
+}

@@ -1,4 +1,3 @@
-
 import Img0 from '../assets//Event-Photography/Gemini/7.JPG';
 import Img1 from '../assets/Event-Photography/Gemini/8.JPG';
 import Img2 from '../assets/Event-Photography/Gemini/9.JPG';
@@ -17,17 +16,9 @@ import Img14 from '../assets/Editorials/ed8.jpg';
 import Img15 from '../assets/Landscape/Vlora/v2.JPG';
 import Img16 from '../assets/Landscape/Bremen Freimarkt/bf2.JPG';
 import Img17 from '../assets/Landscape/Schaffhausen/sh2.JPG';
-import Img18 from '../assets/Landscape/lon1.JPG';
-import Img19 from '../assets/Landscape/lon2.JPG';
+import Img18 from '../assets/Landscape/London/lon1.JPG';
+import Img19 from '../assets/Landscape/London/lon2.JPG';
 import Img20 from '../assets/Landscape/Vlora/v7.JPG';
-
-
-
-
-
-
-
-
 
 
 function MainSec() {
@@ -70,10 +61,94 @@ function MainSec() {
             alt='gemini6'
             />
             <img
-            src = {Img5}
+            src = {Img6}
+            width={400}
+            height={300}
+            alt='ds1'
+            />
+            <img
+            src = {Img7}
+            width={400}
+            height={300}
+            alt='gemini7'
+            />
+            <img
+            src = {Img8}
+            width={400}
+            height={300}
+            alt='gemini8'
+            />
+            <img
+            src = {Img9}
+            width={400}
+            height={300}
+            alt='gemini9'
+            />
+            <img
+            src = {Img10}
+            width={400}
+            height={300}
+            alt='gemini4'
+            />
+            <img
+            src = {Img11}
+            width={400}
+            height={300}
+            alt='gemini5'
+            />
+            <img
+            src = {Img12}
+            width={400}
+            height={600}
+            alt='gemini6'
+            />
+            <img
+            src = {Img13}
+            width={400}
+            height={600}
+            alt='ds1'
+            />
+            <img
+            src = {Img14}
             width={400}
             height={600}
             alt='gemini7'
+            />
+            <img
+            src = {Img15}
+            width={400}
+            height={300}
+            alt='gemini8'
+            />
+            <img
+            src = {Img16}
+            width={400}
+            height={300}
+            alt='gemini9'
+            />
+            <img
+            src = {Img17}
+            width={400}
+            height={300}
+            alt='gemini4'
+            />
+            <img
+            src = {Img18}
+            width={400}
+            height={600}
+            alt='gemini5'
+            />
+            <img
+            src = {Img19}
+            width={400}
+            height={600}
+            alt='gemini6'
+            />
+            <img
+            src = {Img20}
+            width={400}
+            height={600}
+            alt='ds1'
             />
         </div>
             
