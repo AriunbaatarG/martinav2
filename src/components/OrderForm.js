@@ -4,9 +4,7 @@ function OrderForm({ selectedProduct, handleOrderSubmission }) {
   const [formData, setFormData] = useState({
     name: '',
     address: '',
-    cardNumber: '',
-    expiryDate: '',
-    cvv: ''
+    email: ''
   });
 
   const handleChange = (e) => {
@@ -28,6 +26,8 @@ function OrderForm({ selectedProduct, handleOrderSubmission }) {
         <input type="text" name="name" value={formData.name} onChange={handleChange} required />
         <label>Address:</label>
         <textarea name="address" value={formData.address} onChange={handleChange} required />
+        <label>Email</label>
+        <input type="email" name="email" value={formData.email}onChange={handleChange} required/>
         <button type="submit">Place Order</button>
       </form>
     </div>

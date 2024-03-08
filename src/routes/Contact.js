@@ -11,13 +11,13 @@ function Contact() {
         email: "",
         message: ""
     });
-    const [recaptchaFilled, setRecaptchaFilled] = useState(false); // State to track ReCAPTCHA filled status
-    const [submitted, setSubmitted] = useState(false); // State to track form submission
+    const [recaptchaFilled, setRecaptchaFilled] = useState(false); 
+    const [submitted, setSubmitted] = useState(false); 
 
     const sendEmail = (e) => {
         e.preventDefault();
 
-        if (!recaptchaFilled) { // Check if ReCAPTCHA is filled
+        if (!recaptchaFilled) { 
             alert("Please fill in the ReCAPTCHA.");
             return;
         }
@@ -29,12 +29,12 @@ function Contact() {
             .then(
                 () => {
                     console.log('SUCCESS!');
-                    setFormValues({ // Reset formValues state to empty values
+                    setFormValues({ 
                         username: "",
                         email: "",
                         message: ""
                     });
-                    setSubmitted(true); // Set submitted state to true after successful submission
+                    setSubmitted(true); 
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
@@ -51,6 +51,7 @@ function Contact() {
     return (
         <div>
             <Header/>
+            <h2>hi</h2>
             <div className="contact-form">
                 {!submitted ? (
                     <form ref={form} onSubmit={sendEmail}>

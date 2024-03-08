@@ -1,4 +1,5 @@
-import ImageGallery from "react-image-gallery";
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import Img0 from '../assets/Event-Photography/BaletShow/balet1.jpeg';
 import Img1 from '../assets/Event-Photography/BaletShow/balet2.jpeg';
 import Img2 from '../assets/Event-Photography/BaletShow/balet3.jpeg';
@@ -14,77 +15,104 @@ import Img11 from '../assets/Event-Photography/Gemini/7.JPG';
 import Img12 from '../assets/Event-Photography/Gemini/8.JPG';
 import Img13 from '../assets/Event-Photography/Gemini/9.JPG';
 import Img14 from '../assets/Event-Photography/Gemini/10.JPG';
-const images = [
-    {
-      original: Img0,
-      thumbnail: Img0,
-    },
-    {
-      original: Img1,
-      thumbnail: Img1,
-    },
-    {
-      original: Img2,
-      thumbnail: Img2,
-    },
-    {
-        original: Img3,
-        thumbnail: Img3,
-    },
-    {
-        original: Img4,
-        thumbnail: Img4,
-    },
-    {
-        original: Img5,
-        thumbnail: Img5,
-    },
-    {
-        original: Img6,
-        thumbnail: Img6,
-    },
-    {
-        original: Img7,
-        thumbnail: Img7,
-    },
-    {
-          original: Img8,
-          thumbnail: Img8,
-    },
-    {
-          original: Img9,
-          thumbnail: Img9,
-    },
-    {
-        original: Img10,
-        thumbnail: Img10,
-    },
-    {
-        original: Img11,
-        thumbnail: Img11,
-    },
-    {
-        original: Img12,
-        thumbnail: Img12,
-    },
-    {
-        original: Img13,
-        thumbnail: Img13,
-    },
-    {
-        original: Img14,
-        thumbnail: Img14,
-    },
 
-  ];
 function EventPhotography() {
     return (
         <div>
-            <h2>Event Photography</h2>
-            <ImageGallery 
-            items = {images}
-            showPlayButton = {false}
+            <Header/>
+            <div className="images">
+            <img
+            src = {Img0}
+            width={400}
+            height={600}
+            alt='gemini7'
             />
+            <img
+            src = {Img1}
+            width={400}
+            height={600}
+            alt='gemini8'
+            />
+            <img
+            src = {Img2}
+            width={400}
+            height={600}
+            alt='gemini9'
+            />
+            <img
+            src = {Img4}
+            width={400}
+            height={300}
+            alt='gemini5'
+            />
+            <img
+            src = {Img5}
+            width={400}
+            height={300}
+            alt='gemini6'
+            />
+            <img
+            src = {Img6}
+            width={400}
+            height={300}
+            alt='ds1'
+            />
+            <img
+            src = {Img3}
+            width={400}
+            height={600}
+            alt='gemini4'
+            />
+            <img
+            src = {Img8}
+            width={400}
+            height={600}
+            alt='gemini8'
+            />
+            <img
+            src = {Img9}
+            width={400}
+            height={600}
+            alt='gemini9'
+            />
+            <img
+            src = {Img7}
+            width={400}
+            height={300}
+            alt='gemini7'
+            />
+            <img
+            src = {Img11}
+            width={400}
+            height={300}
+            alt='gemini5'
+            />
+            <img
+            src = {Img12}
+            width={400}
+            height={300}
+            alt='gemini6'
+            />
+            <img
+            src = {Img13}
+            width={400}
+            height={300}
+            alt='ds1'
+            />
+            <img
+            src = {Img10}
+            width={400}
+            height={600}
+            alt='gemini4'
+            />
+            <img
+            src = {Img14}
+            width={400}
+            height={600}
+            alt='gemini7'
+            />
+            </div>
+            <Footer/>
         </div>
     );
 }
