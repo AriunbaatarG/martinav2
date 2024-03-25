@@ -1,20 +1,23 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Img0 from '../assets/Event-Photography/BaletShow/balet1.jpeg';
-import Img1 from '../assets/Event-Photography/BaletShow/balet2.jpeg';
-import Img2 from '../assets/Event-Photography/BaletShow/balet3.jpeg';
-import Img3 from '../assets/Event-Photography/BaletShow/balet4.jpeg';
-import Img4 from '../assets/Event-Photography/BaletShow/balet5.jpeg';
-import Img5 from '../assets/Event-Photography/Gemini/1.JPG';
-import Img6 from '../assets/Event-Photography/Gemini/2.JPG';
-import Img7 from '../assets/Event-Photography/Gemini/3.JPG';
-import Img8 from '../assets/Event-Photography/Gemini/4.JPG';
-import Img9 from '../assets/Event-Photography/Gemini/5.JPG';
-import Img10 from '../assets/Event-Photography/Gemini/6.JPG';
-import Img11 from '../assets/Event-Photography/Gemini/7.JPG';
-import Img12 from '../assets/Event-Photography/Gemini/8.JPG';
-import Img13 from '../assets/Event-Photography/Gemini/9.JPG';
-import Img14 from '../assets/Event-Photography/Gemini/10.JPG';
+import Img0 from '../assets/Editorials/ed1.JPG';
+import Img1 from '../assets/Editorials/ed2.JPG';
+import Img2 from '../assets/Editorials/ed3.jpeg';
+import Img3 from '../assets/Editorials/ed4.jpeg';
+import Img4 from '../assets/Editorials/ed5.JPG';
+import Img5 from '../assets/Editorials/ed6.JPG';
+import Img6 from '../assets/Editorials/ed7.JPG';
+import Img7 from '../assets/Editorials/ed8.jpg';
+import Img8 from '../assets/Editorials/ed9.JPG';
+import Img9 from '../assets/Editorials/ed10.jpg';
+import Img10 from '../assets/Editorials/ed11.jpg';
+import Img11 from '../assets/Editorials/ed12.jpg';
+import Img12 from '../assets/Editorials/ed13.jpg';
+import Img13 from '../assets/Editorials/ed14.JPG';
+import Img14 from '../assets/Editorials/ed15.jpg';
+import Img15 from '../assets/Editorials/ed16.jpg';
+import Img16 from '../assets/Editorials/ed17.JPG';
+import Img17 from '../assets/Editorials/ed18.JPG';
 
 function Editorial() {
     return (
@@ -107,6 +110,24 @@ function Editorial() {
             />
             <img
             src = {Img14}
+            width={400}
+            height={600}
+            alt='gemini7'
+            />
+            <img
+            src = {Img15}
+            width={400}
+            height={300}
+            alt='ds1'
+            />
+            <img
+            src = {Img16}
+            width={400}
+            height={600}
+            alt='gemini4'
+            />
+            <img
+            src = {Img17}
             width={400}
             height={600}
             alt='gemini7'
